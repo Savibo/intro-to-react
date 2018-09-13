@@ -1,0 +1,9 @@
+function Thanks(props) {
+  return <h1>Thank you, {props.name}</h1>;
+}
+
+const element = <Thanks name="Sarah" />;
+ReactDOM.render(
+  element,
+  document.getElementById('root')
+);
