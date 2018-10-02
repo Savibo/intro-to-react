@@ -1,0 +1,15 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react/16.1.0/umd/react.development.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/16.1.0/umd/react-dom.development.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.34/browser.min.js"></script>
+<div id ="root"></div>
+<script type ="text/babel">
+function Thanks(props) {
+  return <h1>Thanks, {props.name}</h1>;
+}
+
+const element = <Thanks name="Sarah" />;
+ReactDOM.render(
+  element,
+  document.getElementById('root')
+);
+</script>
